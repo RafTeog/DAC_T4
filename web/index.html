@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eventos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Crud JPA
+        <p><a href="./CreateEvent.html">Criar Evento</a></p>
+        <p><a href="./RetrieveEvent.html">Consultar Evento</a></p>
+        <p><a href="./RetrieveEditEvent.html">Consultar e Editar Evento</a></p>
+        <p><a href="./RetrieveAddEdition.html">Adicionar Edições</a></p>
+        <p><a href="./DeleteEvent.html">Deletar Evento</a></p>
+        </div>
+        <div>List of all Objects
+         <form action="ListarTodosEventosServlet" method="post">
+            <input type="hidden" name="idev"/><br/>
+            <input type="submit" value="Listar"/>
+        </form>
+        </div>
+    </body>
+</html>
